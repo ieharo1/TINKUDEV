@@ -142,33 +142,16 @@ php -S localhost:8000
 
 ---
 
-## 👨‍💻 Desarrollador
+## 👨‍💻 Desarrollado por Isaac Esteban Haro Torres
 
-**Isaac Esteban Haro Torres**
+**Ingeniero en Sistemas · Full Stack · Automatización · Data**
 
-> Ingeniero en Sistemas · Full Stack · Automatización · Data
-
-| Contacto | Información |
-|----------|-------------|
-| 📧 Email | zackharo1@gmail.com |
-| 📱 WhatsApp | +593 98 805 517 |
-| 💻 GitHub | [github.com/ieharo1](https://github.com/ieharo1) |
-| 🌐 Portafolio | [ieharo1.github.io/portafolio-isaac.haro](https://ieharo1.github.io/portafolio-isaac.haro/) |
+- 📧 Email: zackharo1@gmail.com
+- 📱 WhatsApp: 098805517
+- 💻 GitHub: https://github.com/ieharo1
+- 🌐 Portafolio: https://ieharo1.github.io/portafolio-isaac.haro/
 
 ---
 
-## 📄 Licencia
+© 2026 Isaac Esteban Haro Torres - Todos los derechos reservados.
 
-© 2026 TINKUDEV - Desarrollado por **Isaac Esteban Haro Torres**. Todos los derechos reservados.
-
----
-
-## 🔗 Enlaces Rápidos
-
-- [Ver Sitio Web](./index.html)
-- [GitHub del Desarrollador](https://github.com/ieharo1)
-- [Portafolio Personal](https://ieharo1.github.io/portafolio-isaac.haro/)
-
----
-
-*¡Transforma tu institución con tecnología open source! 🚀*
