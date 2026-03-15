@@ -1,84 +1,174 @@
-# tinkudev: Recursos de Diseño y Branding
+# 🚀 TINKUDEV | Sitio Web Oficial
 
-Este repositorio es una colección de recursos de diseño gráfico, elementos de branding y materiales de marketing para "tinkudev".
+**Sitio web profesional para servicios de instalación de OJS, KOHA y DSpace**
 
 ---
 
 ## 📝 Descripción
 
-Colección centralizada de activos visuales y documentos para campañas de marketing, comunicación con clientes y presentaciones. El objetivo es asegurar consistencia en la comunicación visual de la marca.
+Sitio web moderno y brutalista diseñado para **TINKUDEV**, especializado en implementación de sistemas de gestión del conocimiento. La página presenta los servicios de instalación, configuración y soporte para las plataformas más utilizadas en el ámbito académico y bibliotecario.
 
 ---
 
-## 🎯 Para qué sirve
+## 🎯 Servicios que Ofrece TINKUDEV
 
-- Material promocional y publicitario
-- Diseño de interfaces de usuario
-- Documentación y presentaciones
-- Comunicación oficial de la marca
-- Elementos de branding
+| Servicio | Descripción |
+|----------|-------------|
+| **OJS** | Open Journal Systems - Gestión y publicación de revistas científicas |
+| **KOHA** | Sistema integrado de gestión bibliotecaria de código abierto |
+| **DSpace** | Repositorio digital institucional para producción académica |
 
 ---
 
-## 🏗 Estructura y Contenido
+## 🏗 Estructura del Proyecto
 
 ```
 tinkudev/
-├── clientes/           # Materiales para clientes
-├── facebook/          # Activos para Facebook
-├── firma/             # Elementos de firma de email
-├── flyer/             # Diseños de flyers
-├── fondos/            # Fondos y texturas
-├── iconos/            # Sets de iconos
-├── pdf_word/          # Plantillas PDF/Word
-├── publicidad/        # Campañas publicitarias
-└── Logotipos/         # Logotipos de marca
+├── index.html                 # Página web principal
+├── README.md                  # Documentación del proyecto
+│
+├── css/
+│   └── styles.css             # Estilos personalizados (Negro/Blanco/Verde)
+│
+├── js/
+│   └── main.js                # Animaciones e interacciones
+│
+├── assets/
+│   ├── img/                   # Imágenes generales
+│   │   ├── lobo_blanco.png
+│   │   ├── lobo_negro.png
+│   │   ├── logo.jpeg
+│   │   ├── perfil.jpeg
+│   │   └── screenshot.png
+│   │
+│   └── logos/
+│       ├── branding/          # Identidad de marca
+│       │   └── tinkudev.png
+│       │
+│       └── servicios/         # Logos de plataformas
+│           ├── dspace.png
+│           ├── koha.png
+│           ├── ojs.png
+│           ├── ojs_alt.png
+│           └── ojs_negro.png
+│
+├── clientes/                  # Materiales para clientes
+├── facebook/                  # Activos para redes sociales
+├── firma/                     # Firmas de email
+├── flyer/                     # Diseños promocionales
+├── fondos/                    # Fondos y texturas
+├── iconos/                    # Sets de iconos
+├── pdf_word/                  # Plantillas documentales
+└── publicidad/                # Campañas publicitarias
 ```
 
 ---
 
-## 🎨 Recursos Incluidos
+## ✨ Características del Sitio Web
 
-- Logotipos en diferentes formatos
-- Iconos para UI/UX
-- Fondos y texturas
-- Plantillas para documentos
-- Assets para redes sociales
-- Firmas de correo corporativo
+### Diseño
+- 🎨 **Estilo Brutalista** - Colores negro, blanco y verde neón
+- 📱 **100% Responsive** - Adaptable a todos los dispositivos
+- 🖱️ **Cursor Personalizado** - Efecto interactivo único
+- 🌊 **Animaciones Scroll** - Elementos que aparecen al navegar
+- ⚡ **Carga Rápida** - Optimizado para rendimiento
 
----
+### Secciones
+1. **Hero** - Portada impactante con estadísticas animadas
+2. **Servicios** - Cards interactivas para OJS, KOHA y DSpace
+3. **Plataformas** - Información detallada de cada tecnología
+4. **Beneficios** - Ventajas de elegir TINKUDEV
+5. **Contacto** - Formulario y datos de contacto
 
-## 📂 Formatos
-
-- PNG (imágenes con transparencia)
-- SVG (vectores escalables)
-- PDF (documentos)
-- DOCX (plantillas editables)
-- JPG (imágenes comprimidas)
-
----
-
-## 💻 Uso
-
-Los activos pueden ser utilizados directamente en:
-- Proyectos web
-- Presentaciones
-- Material impresso
-- Redes sociales
-- Documentación
-
+### Tecnologías
+- HTML5 Semántico
+- CSS3 Moderno (Grid, Flexbox, Variables)
+- JavaScript Vanilla (sin dependencias)
+- Google Fonts (Orbitron + Rajdhani)
 
 ---
 
-## 👨‍💻 Desarrollado por Isaac Esteban Haro Torres
+## 🚀 Cómo Usar
 
-**Ingeniero en Sistemas · Full Stack · Automatización · Data**
+### Opción 1: Abrir Localmente
+```bash
+# Simplemente abre el archivo index.html en tu navegador
+# O usa la extensión Live Server de VS Code
+```
 
-- 📧 Email: zackharo1@gmail.com
-- 📱 WhatsApp: 098805517
-- 💻 GitHub: https://github.com/ieharo1
-- 🌐 Portafolio: https://ieharo1.github.io/portafolio-isaac.haro/
+### Opción 2: Servidor Local
+```bash
+# Con Python
+python -m http.server 8000
+
+# Con Node.js
+npx serve .
+
+# Con PHP
+php -S localhost:8000
+```
+
+### Opción 3: Deploy a Producción
+```bash
+# Sube los archivos a tu hosting preferido
+# - GitHub Pages
+# - Netlify
+# - Vercel
+# - Hosting tradicional
+```
 
 ---
 
-© 2026 Isaac Esteban Haro Torres - Todos los derechos reservados.
+## 📂 Formatos de Archivos
+
+| Tipo | Extensión | Uso |
+|------|-----------|-----|
+| HTML | `.html` | Estructura web |
+| Estilo | `.css` | Diseño y animaciones |
+| Script | `.js` | Interactividad |
+| Imagen | `.png` | Logos con transparencia |
+| Imagen | `.jpeg` | Fotografías |
+
+---
+
+## 🎨 Paleta de Colores
+
+| Color | Código | Uso |
+|-------|--------|-----|
+| Negro | `#000000` | Fondo principal |
+| Blanco | `#FFFFFF` | Texto y contrastes |
+| Verde Neón | `#00FF88` | Acentos y CTAs |
+| Verde Oscuro | `#00CC6A` | Hover states |
+
+---
+
+## 👨‍💻 Desarrollador
+
+**Isaac Esteban Haro Torres**
+
+> Ingeniero en Sistemas · Full Stack · Automatización · Data
+
+| Contacto | Información |
+|----------|-------------|
+| 📧 Email | zackharo1@gmail.com |
+| 📱 WhatsApp | +593 98 805 517 |
+| 💻 GitHub | [github.com/ieharo1](https://github.com/ieharo1) |
+| 🌐 Portafolio | [ieharo1.github.io/portafolio-isaac.haro](https://ieharo1.github.io/portafolio-isaac.haro/) |
+
+---
+
+## 📄 Licencia
+
+© 2026 TINKUDEV - Desarrollado por **Isaac Esteban Haro Torres**. Todos los derechos reservados.
+
+---
+
+## 🔗 Enlaces Rápidos
+
+- [Ver Sitio Web](./index.html)
+- [GitHub del Desarrollador](https://github.com/ieharo1)
+- [Portafolio Personal](https://ieharo1.github.io/portafolio-isaac.haro/)
+
+---
+
+*¡Transforma tu institución con tecnología open source! 🚀*
